@@ -1,0 +1,465 @@
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="No-Store">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>APPIC</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style media="print">
+   a:after  { content: "" !important; }
+</style>
+
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png">
+
+<!-- CSS: implied media="all" -->
+<!-- will need to cat the reset in the build process -->
+<link rel="stylesheet" href="/css/reset.css?v=1">
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
+
+<link rel="stylesheet" href="/bootstrap/css/custom.css">
+<link rel="stylesheet" href="/js/plugins/jquery.qtip.css">
+<link rel="stylesheet" href="/js/jquery-ui-1.8.1.custom/css/smoothness/jquery-ui-1.8.1.custom.css" />
+<link rel="stylesheet" href="/js/fancybox/jquery.fancybox-1.3.1.css" />
+<link rel="stylesheet" href="/bootstrap/css/bootstrap-datetimepicker.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/js/libs/modernizr-2.0.6.js"></script>
+    <script src="/js/libs/leaf_log.js"></script>
+    <script src="/js/libs/jquery.placeholder.min.js"></script>
+    <script src="/js/jquery-ui-1.8.1.custom/js/jquery-ui-1.8.1.custom.min.js"></script>
+    <script src="/js/wrapper.js"></script>
+    <script src="/js/soi.js"></script>
+    <script src="/js/leaf.js"></script>
+    <!--script src="/js/leaf.min.js"></script-->
+    <script src="/js/post-internship-tables.js"></script>
+    <script src="/js/payment.js"></script>
+    <script src="/js/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
+    <script src="/js/tinymce/jscripts/tiny_mce/jquery.tinymce.js"></script>
+    <script src="/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+    <script src="/js/jquery.tablesorter.min.js"></script>
+    <script src="/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+    <script>
+        LEAF_LOG = window.LEAF_LOG || []; LEAF_LOG.DEBUG = true;
+    </script>
+
+
+
+<!-- <link rel="stylesheet" href="/css/branding-default.css" /> -->
+<!-- <link rel="stylesheet" href="/css/branding-appic.css" /> -->
+
+
+
+    <!-- script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script -->
+<!-- replace with minified version of jquery before production launch -->
+
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/jquery.sort.js"></script>
+<script src='/js/plugins/jquery.qtip.js'></script>
+<script src="/js/main.js?V=1.0"></script>
+<!-- <script src="/js/leaf.min.js"></script> -->
+<script src='/js/plugins/jquery.scrollTo.js'></script>
+<script src='/js/plugins/jquery.textareaCounter.plugin.js'></script>
+
+
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34291661-12', 'appic.org');
+  ga('send', 'pageview');
+    </script>
+
+
+
+</head>
+
+
+
+    <body>
+
+        
+
+        
+            <header class="masthead">
+
+            <!-- admin tabs -->
+            
+            
+            <div class="container">
+<div class="page-header">
+
+<div class="row"> <!-- logo and user info goes in this row -->
+
+<div class="span5"> <!-- logo goes in this span -->
+<h1 class="control-logo-font">
+   <span> 
+     <a href="/" id="the-logo" class="appic-logo" title="APPIC logo/home page link">
+     </a>
+   </span>
+</h1>
+</div> <!-- end span5 that contains logo -->
+
+<div class="span5 offset2"> <!-- user info goes in this span -->
+
+  
+          <span id="no-login" class="pull-right">
+                        <ul class="dir-account-info">
+                <li class="no-account">
+                <form method="POST" class="form-horizontal" action="/directory/login">
+                  <input name="username" placeholder="Email" type="text"  />
+                  <input name="password" placeholder="Password" type="password" />
+                  <input class="btn" name="submit" value="Log In" type="submit" />
+                </form>
+                </li>
+                <li class="errors">
+                
+                
+                
+                </li>
+
+                <li class="no-account"><a class="new-account" href="/directory/new_user">Create a new APPIC Directory Account</a></li>
+
+            </ul>
+
+          </span>
+  
+
+
+</div> <!-- end row for logo and user info -->
+</div>
+</div>
+
+            
+            <!-- program tabs -->
+            
+            </header>
+            
+            <!-- second and third level tabs -->
+            <div class="container">
+                
+
+
+
+            </div> <!-- end container for program submenu 2-->    
+            <div class="container">
+                
+            </div> <!-- end container for program submenu 3 -->
+
+        
+        <div class="container" id="container">         
+          <div id="main" role="main">          
+          
+            
+
+
+
+<div>
+  Your search returned <strong>9</strong> programs.
+</div>
+<table id="dir-results-table" class="table table-bordered table-hover table-striped">
+
+	
+    <caption><h4>Search Results</h4></caption>
+	
+
+	<thead>
+	<tr>
+		<th><a href="/directory/search?search=1&ID_MSI_USA_Metro=22&program_type_id=1&&sort_by=appic_num&direction=1">APPIC Number</a></th>
+		<th><a href="/directory/search?search=1&ID_MSI_USA_Metro=22&program_type_id=1&&sort_by=school_name&direction=1">Site / Department</a></th>
+		<th><a href="/directory/search?search=1&ID_MSI_USA_Metro=22&program_type_id=1&&sort_by=program_state&direction=1">Location</a></th>
+		<th>Application Due Date</th>
+		<th><a href="/directory/search?search=1&ID_MSI_USA_Metro=22&program_type_id=1&&sort_by=program_type_id&direction=1">Program</a></th>
+		
+	</tr>
+	</thead>
+
+	<tbody>
+	
+	
+	
+	
+	<tr>
+		<td>1540</td>
+		<td><a href="/directory/display/383">Allegheny General Hospital / Psychiatry</a></td>
+		<td>
+			Pittsburgh,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/13/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>2279</td>
+		<td><a href="/directory/display/1490">Carnegie Mellon University / Counseling and Psychological Services</a></td>
+		<td>
+			Pittsburgh,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/15/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>2225</td>
+		<td><a href="/directory/display/528">Conemaugh Memorial Medical Center  / Family Medicine</a></td>
+		<td>
+			Johnstown,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>12/04/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>2274</td>
+		<td><a href="/directory/display/887">Northwood Health Systems / Psychology</a></td>
+		<td>
+			Wheeling,
+			
+      		  WV,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>12/1/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>2285</td>
+		<td><a href="/directory/display/1558">Pittsburgh Psychology Internship Consortium (P-PIC) / -</a></td>
+		<td>
+			Homestead,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/27/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>1659</td>
+		<td><a href="/directory/display/43">Sarah A. Reed Children's Center / Psychology Department</a></td>
+		<td>
+			Erie,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/13/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>1542</td>
+		<td><a href="/directory/display/514">University of Pittsburgh / Counseling Center</a></td>
+		<td>
+			Pittsburgh,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/01/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>1543</td>
+		<td><a href="/directory/display/45">VA Pittsburgh Healthcare System / Behavioral Health</a></td>
+		<td>
+			Pittsburgh,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>10/28/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	
+	
+	
+	<tr>
+		<td>1544</td>
+		<td><a href="/directory/display/757">Western Psychiatric Institute and Clinic / Psychology Internship Program</a></td>
+		<td>
+			Pittsburgh,
+			
+      		  PA,
+      		
+			 
+			 USA
+			 
+		</td>
+		<td>11/1/2015 11:59 PM</td>
+		<td>
+		
+		    Internship
+		
+		</td>
+    		
+	</tr>	
+	
+	</tbody>
+</table>
+
+
+
+
+
+<div class="pagination pagination-right">
+
+<!--span>Pages (1 of 1):</span-->
+
+<ul>
+
+
+    <li class="disabled"><a>&laquo;</a></li>
+
+
+
+
+        <li class="active"><a>1</a></li>
+
+
+
+    <li class="disabled"><a>&raquo;</a></li>
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div style="margin-bottom:50px">
+  
+    <a class="btn" href="/directory/search"><i class="icon-arrow-left"></i> Back to the Search Page</a>
+  
+  <a class="btn" href="/directory/excel?search=1&ID_MSI_USA_Metro=22&program_type_id=1&&sort_by=&direction="><i class="icon-download"></i> Download Results in Excel</a>
+</div>
+
+
+
+
+
+          </div>
+        </div>
+    </body>
+
+
+
+</html>
+
+
